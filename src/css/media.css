@@ -1,4 +1,7 @@
 @media (max-width:820px){
+    *{
+        scrollbar-width: none;
+    }
     .header-left ,.header-right, .header-center{
         display: none;
     }
@@ -59,6 +62,18 @@
         transform: translateY(-50%);
         padding: 5px;
         background-color: transparent;
+    }
+    .article-title>a{
+        font-size: 20px;
+    }
+    .article-item--main{
+        border-bottom: 1px solid #ccc;
+    }
+    .article-item--main>h3>a{
+        font-size: 20px;
+    }
+    .article-text{
+        display: block;
     }
 }
 
