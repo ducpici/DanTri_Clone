@@ -158,7 +158,8 @@ body{
     display: block;
 }
 .footer{
-    padding-bottom: 50px;
+    padding: 20px 0 50px 0;
+    border-top: 1px solid #ccc;
 }
 .footer-logo-img{
     width: 102px;
